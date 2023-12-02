@@ -38,15 +38,12 @@ function Footer() {
           <form className="gap-y-8" >
           <h3 className="text-blue font-bold mb-4 text-lg lg:pt-0 pt-4"> Leave Us A Message</h3>
           <div className="flex mb-4 items-center justify-center w-full">
-            {/* <label className="mr-2"> */}
               <input
                 type="text"
                 name="fullName"
                 className="border-2 mr-2 border-[#005DAC66] lg:py-3 py-2 lg:px-3 px-2 lg:p-0 p-4 rounded-md w-1/2"
                 placeholder="Full Names"
               />
-            {/* </label> */}
-            {/* <label> */}
               <input
                 type="email"
                 name="email"
@@ -54,7 +51,6 @@ function Footer() {
                 placeholder="Email Address"
                 required
               />
-            {/* </label> */}
   </div>
                 <label>
                   <input
