@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 
 function page() {
@@ -5,7 +6,11 @@ function page() {
     <div>
       <section>
       <div className="h-full">
-        <img src="/Images/team.jpeg" fill alt="team image" className="w-full"></img> 
+      <div
+          className="absolute top-24 left-0 w-full h-[685px] bg-black opacity-30"
+          style={{ zIndex: 1 }}>
+      </div>
+        <img src="/Images/team.jpeg" fill alt="team image" className="w-full"></img>
       </div>
       <div className="lg:p-24 p-12">
         <h1 className="text-blue lg:text-5xl text-3xl font-bold text-center">Rwanda GBS Growth Initiative</h1>
@@ -30,7 +35,7 @@ function page() {
                 <img src="/Images/bullseye.svg" alt="bull's eye"/>
                 <div className="lg:pt-8 pt-3">
                     <h4 className="font-semibold lg:text-xl text-base">Entry support into Rwanda</h4>
-                    <p className="font-light lg:pt-6 pt-3 lg:pb-8 pb-3 lg:text-base text-[0.80rem] ">
+                    <p className="font-light lg:pt-6 pt-3 lg:pb-8 pb-3 text-gray text-justify lg:text-base text-base ">
                     The GBS Growth Initiative supports new investors by offering essential market intelligence and research. We deliver precise details on costs, a clear setup timeline, expert guidance on real estate, and connections to pertinent partners—all tailored to ensure a seamless and successful entry for GBS investors in Rwanda.
                     </p>
                 </div>
@@ -40,7 +45,7 @@ function page() {
                 <img src="/Images/bullseye.svg" alt="bull's eye"/>
                 <div className="lg:pt-8 pt-3">
                     <h4 className="font-semibold lg:text-xl text-base">Coordination across the Rwandan GBS sector</h4>
-                    <p className="font-light lg:pt-6 pt-3 lg:pb-8 pb-3 lg:text-base text-[0.80rem] ">
+                    <p className="font-light lg:pt-6 pt-3 lg:pb-8 pb-3 text-gray lg:text-base text-justify text-[0.80rem] ">
                     The GBS Growth Initiative offers a dynamic platform and a hub for knowledge sharing, fostering trusted collaboration among the private sector, ecosystem stakeholders, and government. Together, we engage in open dialogues to address industry challenges, co-create innovative solutions, and promote sustainable and scalable growth. Our mission includes advocating for policy alignment and sector development, acting as a bridge between the industry and government to drive positive change.
                     </p>
                 </div>
@@ -50,7 +55,7 @@ function page() {
                 <img src="/Images/bullseye.svg" alt="bull's eye"/>
                 <div className="lg:pt-8 pt-3">
                     <h4 className="font-semibold lg:text-xl text-base">Coordinated upskilling of the Rwandan Workforce</h4>
-                    <p className="font-light lg:pt-6 pt-3 lg:pb-8 pb-3 lg:text-base text-[0.80rem]">
+                    <p className="font-light lg:pt-6 pt-3 lg:pb-8 pb-3 lg:text-base text-gray text-justify text-[0.80rem]">
                     The Growth Initiative strategically drives the implementation of upskilling initiatives, with a dedicated focus on enhancing, retraining, and future-proofing our talented workforce. We are committed to continually develop the human capital infrastructure, in supporting the industry's rapid growth.
                     </p>
                 </div>

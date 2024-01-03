@@ -26,6 +26,7 @@ function Navbar() {
   }
 ]
 
+
 const [IsactiveLink, setIsactiveLink] = useState('');
 const activity = (name, event) => {
   event.preventDefault(); // Prevent full page reload

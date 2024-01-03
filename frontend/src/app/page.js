@@ -1,12 +1,11 @@
 import Link from 'next/link'
+import Page from './home/page'
 
 
 export default function Home() {
   return (
     <div>
-    {/* <h1>Hello</h1>
-    <Link className='text-blue-400' href="/about"> here
-    </Link> */}
+    <Page/>
     </div>
   )
 }
