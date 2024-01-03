@@ -41,13 +41,13 @@ function Footer() {
               <input
                 type="text"
                 name="fullName"
-                className="border-2 mr-2 border-[#005DAC66] lg:py-3 py-2 lg:px-3 px-2 lg:p-0 p-4 rounded-md w-1/2"
+                className="lg:text-md text-sm border-2 mr-2 border-[#005DAC66] lg:py-3 py-2 lg:px-3 px-2 lg:p-0 p-4 rounded-md w-1/2"
                 placeholder="Full Names"
               />
               <input
                 type="email"
                 name="email"
-                className="border-2 border-[#005DAC66] lg:py-3 py-2 lg:px-3 px-2 lg:p-0 p-4 rounded-md w-1/2"
+                className="lg:text-md text-sm border-2 border-[#005DAC66] lg:py-3 py-2 lg:px-3 px-2 lg:p-0 p-4 rounded-md w-1/2"
                 placeholder="Email Address"
                 required
               />
@@ -56,20 +56,20 @@ function Footer() {
                   <input
                     type="text"
                     name="companyName"
-                    className="border-2 w-full mb-4 py-3 px-3 rounded-md border-[#005DAC66]"
+                    className="lg:text-md text-sm border-2 w-full mb-4 py-3 px-3 rounded-md border-[#005DAC66]"
                     placeholder="Company Name"
                   />
                 </label>
                 <label>
                   <textarea
                     name="message"
-                    className="w-full px-3 py-6 border-2 rounded-md text-start border-[#005DAC66]"
+                    className="lg:text-md text-sm w-full px-3 py-6 border-2 rounded-md text-start border-[#005DAC66]"
                     placeholder="Your Message"
                     required
                   ></textarea>
                 </label>
       <div className="flex justify-end">
-      <button type="button" class=" text-white hover:bg-blue bg-blue border-2 border-blue focus:ring-2 focus:outline-2 focus:ring-blue font-medium rounded-lg text-base px-5 py-3 text-center right-0">Submit</button>
+      <button type="button" class=" text-white hover:bg-blue bg-blue border-2 border-blue focus:ring-2 focus:outline-2 focus:ring-blue font-medium rounded-lg lg:text-base text-sm px-5 py-3 text-center right-0">Submit</button>
       </div>
             </form>
 
@@ -77,7 +77,7 @@ function Footer() {
                 </div>
               </div>
         </div>
-	   <div className="py-6 text-center text-md border-t-4 border-[#005DAC] text-gray">Rwanda GBS GI. All rights reserved.</div>
+	   <div className="py-6 text-center lg:text-md md:text-sm text-xs border-t-4 border-[#005DAC] text-gray">Rwanda GBS GI. All rights reserved.</div>
 </footer>
     </div>
   )
