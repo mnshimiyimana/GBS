@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import Carousel from '../components/Carousel';
+import Accordion from '../components/Accordion';
 
 function Page() {
 
@@ -33,7 +34,7 @@ function Page() {
                           </p>
                           <div className="flex justify-between">
                             <p></p>
-                            <img src="/Images/arrow2.svg" alt=""/>
+                            <img src="/Images/arrow3.svg" alt=""/>
                           </div>
                       </div>
                   </div>
@@ -47,7 +48,7 @@ function Page() {
                           </p>
                           <div className="flex justify-between">
                             <p></p>
-                            <img src="/Images/arrow2.svg" alt=""/>
+                            <img src="/Images/arrow3.svg" alt=""/>
                           </div>
                       </div>
                   </div>
@@ -61,7 +62,7 @@ function Page() {
                           </p>
                           <div className="flex justify-between">
                             <p></p>
-                            <img src="/Images/arrow2.svg" alt=""/>
+                            <img src="/Images/arrow3.svg" alt=""/>
                           </div>
                       </div>
                   </div>
@@ -82,7 +83,8 @@ function Page() {
           <p className="text-gray pt-8 text-md pb-8">Rwanda has all the fundamentals it needs to grow as a leading GBS delivery destination.</p>
 
           <div className="flex flex-col gap-3">
-            <div className="flex flex-row justify-between w-full border border-[#00000029] rounded-md px-3 py-4">
+           <Accordion />
+            {/* <div className="flex flex-row justify-between w-full border border-[#00000029] rounded-md px-3 py-4">
               <p class="font-light">Rwanda Vision 2050</p>
               <img src="/Images/add.svg" className="w-6 h-6" alt=""/>
             </div>
@@ -110,7 +112,10 @@ function Page() {
             <div className="flex flex-row justify-between w-full border border-[#00000029] rounded-md px-3 py-4">
               <p class="font-light">Lifestyle</p>
               <img src="/Images/add.svg" className="w-6 h-6" alt=""/>
-            </div>
+            </div> */}
+
+
+
           </div>
         </div>
       </div>

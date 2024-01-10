@@ -18,7 +18,7 @@ function page() {
                                 </div>
                                 <p className="lg:text-sm text-xs font-light pt-3">10 . OCT . 2023</p>
                                 <p className="font-bold lg:text-base text-xs pt-4 pb-3">Urubyiruko rwashyiriweho uburyo rwakorera ibigo mpuzamahanga rutavuye mu Rwanda</p>
-                                <button onClick={() => router.push('/article1')} type="button" class=" hover:drop-shadow-lg  text-blue hover:bg-white border-2 border-blue focus:ring-2 focus:outline-2 focus:ring-blue rounded-lg lg:text-[0.850rem] text-xs font-extrabold px-6 py-3 text-center">Read More</button>
+                                <button onClick={() => router.push('/article1')} type="button" class=" hover:drop-shadow-lg  text-blue hover:bg-white border-2 border-blue focus:ring-2 focus:outline-2 focus:ring-blue rounded-lg lg:text-[0.850rem] text-xs font-extrabold px-6 py-3 text-center hover:scale-110">Read More</button>
                             </div>
                             
                             <div className="w-full lg:pr-12 pr-0">
@@ -27,7 +27,7 @@ function page() {
                                 </div>
                                 <p className="lg:text-sm text-xs font-light pt-3">10 . OCT . 2023</p>
                                 <p className="font-bold lg:text-base text-xs pt-4 pb-3">Global Business Services Growth Initiative to create more jobs for Rwandans</p>
-                                <button onClick={() => router.push('/article2')} type="button" href="/article1" class=" hover:drop-shadow-lg  text-blue hover:bg-white border-2 border-blue focus:ring-2 focus:outline-2 focus:ring-blue rounded-lg lg:text-[0.850rem] text-xs font-extrabold px-6 py-3 text-center">Read More</button>
+                                <button onClick={() => router.push('/article2')} type="button" href="/article1" class=" hover:drop-shadow-lg  text-blue hover:bg-white border-2 border-blue focus:ring-2 focus:outline-2 focus:ring-blue rounded-lg lg:text-[0.850rem] text-xs font-extrabold px-6 py-3 text-center hover:scale-110">Read More</button>
                             </div>
 
                         </div>

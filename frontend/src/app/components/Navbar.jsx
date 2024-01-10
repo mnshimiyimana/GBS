@@ -46,9 +46,9 @@ console.log(IsactiveLink);
         </Link>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse " id="navbar-cta">
           <div class="pr-8">
-            <button onClick={() => router.push('https://docs.google.com/forms/d/e/1FAIpQLSfoiMc0dCaNdg-0ASyb9Iv9VErOpSocLqlntyLQRq9FSjcc4Q/viewform')} type="button" class="hidden md:hidden hover:drop-shadow-lg lg:hidden xl:inline-block text-blue hover:bg-white border-2 border-blue focus:ring-2 focus:outline-2 focus:ring-blue font-medium rounded-lg text-base px-4 py-3 text-center" target="_blank">Become A Member</button>
+            <button onClick={() => router.push('https://docs.google.com/forms/d/e/1FAIpQLSfoiMc0dCaNdg-0ASyb9Iv9VErOpSocLqlntyLQRq9FSjcc4Q/viewform')} type="button" class="hidden md:hidden hover:drop-shadow-lg lg:hidden xl:inline-block text-blue hover:bg-white border-2 border-blue focus:ring-2 focus:outline-2 focus:ring-blue font-medium rounded-lg text-base px-4 py-3 text-center hover:scale-110" target="_blank">Become A Member</button>
             </div>
-            <button type="button" class="hidden hover:drop-shadow-lg md:hidden lg:hidden xl:inline-block text-white hover:bg-blue bg-blue border-2 border-blue focus:ring-2 focus:outline-2 focus:ring-blue font-medium rounded-lg text-base px-4 py-3 text-center" >Contact Us</button>
+            <button type="button" class="hidden hover:drop-shadow-lg md:hidden lg:hidden xl:inline-block text-white hover:bg-blue bg-blue border-2 border-blue focus:ring-2 focus:outline-2 focus:ring-blue font-medium rounded-lg text-base px-4 py-3 text-center hover:scale-110" >Contact Us</button>
             <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-cta" aria-expanded="false">
               <span class="sr-only">Open main menu</span>
               <svg class="w-5 h-5 text-blue" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
